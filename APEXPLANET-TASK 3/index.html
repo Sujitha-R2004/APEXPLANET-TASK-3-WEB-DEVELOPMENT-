@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Advanced JS Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="quiz">
+      <h2>🧠 Interactive Quiz</h2>
+      <div id="questionBox"></div>
+      <div id="optionsBox"></div>
+    </section>
+
+    <section class="carousel">
+      <h2>🖼️ Image Carousel</h2>
+      <div class="carousel-container">
+        <img id="carouselImage" src="assets/images/img1.jpg" alt="carousel" class="carousel-image" />
+        <div class="carousel-controls">
+          <button onclick="prevImage()">⏪ Prev</button>
+          <button onclick="nextImage()">Next ⏩</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="api-data">
+      <h2>😂 Random Joke Generator</h2>
+      <div class="joke-box">
+        <button onclick="getJoke()">Tell me a joke!</button>
+        <p id="jokeText">Click to hear something funny!</p>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
